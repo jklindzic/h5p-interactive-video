@@ -26,7 +26,7 @@
                   "description": "Optional. Display a short description text on the video start screen. Does not work for YouTube videos."
                 },
                 {
-                  "label": "Poster slika",
+                  "label": "Naslovna slika",
                   "description": "Image displayed before the user launches the video. Does not work for YouTube Videos."
                 },
                 {
@@ -65,7 +65,7 @@
                         ]
                       },
                       {
-                        "label": "Source language, must be defined for subtitles",
+                        "label": "Izvorni jezik, mora biti definiran za titlove",
                         "default": "en",
                         "description": "Must be a valid BCP 47 language tag. If 'Subtitles' is the type of text track selected, the source language of the track must be defined."
                       },
@@ -167,7 +167,7 @@
                     ]
                   },
                   {
-                    "label": "Visuals",
+                    "label": "Vizuali",
                     "fields": [
                       {
                         "label": "Boja pozadine",
@@ -175,7 +175,7 @@
                         "spectrum": {}
                       },
                       {
-                        "label": "Box shadow",
+                        "label": "Sjena",
                         "description": "Adds a subtle shadow around the interaction. You might want to disable this for completely transparent interactions"
                       }
                     ]
@@ -187,10 +187,10 @@
                         "label": "Vrsta",
                         "options": [
                           {
-                            "label": "Timecode"
+                            "label": "Vremenska oznaka"
                           },
                           {
-                            "label": "Another page (URL)"
+                            "label": "Druga stranica (URL)"
                           }
                         ]
                       },
@@ -267,7 +267,7 @@
           "description": "Enter timecode in the format M:SS"
         },
         {
-          "label": "Auto-play video",
+          "label": "Automatski pokreni video",
           "description": "Start playing the video automatically"
         },
         {
@@ -310,7 +310,7 @@
           "description": "Enabling this options will disable user video navigation through default controls."
         },
         {
-          "label": "Deactivate sound",
+          "label": "Onemogući zvuk",
           "description": "Enabling this option will deactivate the video's sound and prevent it from being switched on."
         }
       ]
@@ -320,7 +320,7 @@
       "fields": [
         {
           "label": "Naslov",
-          "default": "Interaction"
+          "default": "Interakcija"
         },
         {
           "label": "Play title",
@@ -340,7 +340,7 @@
         },
         {
           "label": "Video quality title",
-          "default": "Video Quality"
+          "default": "Kvaliteta snimke"
         },
         {
           "label": "Video captions title",
@@ -352,7 +352,7 @@
         },
         {
           "label": "Fullscreen title",
-          "default": "Fullscreen"
+          "default": "Prikaz na cijelom ekranu"
         },
         {
           "label": "Exit fullscreen title",
@@ -360,7 +360,7 @@
         },
         {
           "label": "Naslov sažetka",
-          "default": "Summary"
+          "default": "Sažetak"
         },
         {
           "label": "Bookmarks title",
